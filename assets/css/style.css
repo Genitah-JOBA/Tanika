@@ -75,6 +75,30 @@ strong{font-weight:500}
 :focus-visible{outline:2px solid var(--laiton-deep);outline-offset:3px;border-radius:2px}
 :focus:not(:focus-visible){outline:none}
 
+/* ── Icônes ───────────────────────────────────────────────── */
+.icon{
+  display:inline-block;width:1em;height:1em;
+  fill:none;stroke:currentColor;stroke-width:1.8;
+  stroke-linecap:round;stroke-linejoin:round;
+  vertical-align:-0.16em;flex-shrink:0;
+}
+.btn .icon{width:1.15em;height:1.15em}
+
+@media(min-width:1021px){
+  .nav-list a{display:inline-flex;align-items:center;gap:.55em}
+}
+.nav-list a .icon{width:.92em;height:.92em;color:var(--laiton-deep)}
+
+.footer-nav a{display:inline-flex;align-items:center;gap:.6em}
+.footer-nav a .icon{width:.92em;height:.92em;opacity:.85}
+.footer-coord a{display:inline-flex;align-items:center;gap:.5em}
+.footer-top .icon{width:.85em;height:.85em}
+
+.value-icon{display:block;width:34px;height:34px;color:var(--laiton-deep);margin-bottom:.6em}
+.step-icon{display:block;width:28px;height:28px;color:var(--laiton-soft);margin-bottom:.5em}
+.rituel-icon{display:block;width:30px;height:30px;color:var(--oxblood);margin-bottom:.7em}
+.contact-icon{display:block;width:26px;height:26px;color:var(--laiton-soft);margin-bottom:.7em}
+
 /* ── Container ─────────────────────────────────────────────── */
 .container{width:min(var(--max-w),100% - 2*var(--gutter));margin-inline:auto}
 .container--narrow{width:min(var(--narrow-w),100% - 2*var(--gutter));margin-inline:auto}
@@ -310,7 +334,7 @@ strong{font-weight:500}
 .maison-text p{margin-bottom:1em}
 .maison-text p strong{color:var(--laiton-deep)}
 .maison-figure{position:relative;margin-top:1.5rem}
-.maison-figure img{border:1px solid var(--ink-25);border-radius:var(--rad)}
+.maison-figure img{border:1px solid var(--ink-25);border-radius:var(--rad);aspect-ratio:16/9;object-fit:cover}
 .maison-figure figcaption{font:italic 400 .82rem/1.5 var(--font-body);color:var(--ink-soft);margin-top:.55em}
 
 .values-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1.8rem,3vw,3rem)}
@@ -458,7 +482,7 @@ strong{font-weight:500}
 .boutique-intro{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(2rem,4vw,4rem);align-items:center;margin-bottom:var(--space-lg)}
 .boutique-text p{margin-bottom:1em}
 .boutique-figure{position:relative}
-.boutique-figure img{border:1px solid var(--line-light);border-radius:var(--rad)}
+.boutique-figure img{border:1px solid var(--line-light);border-radius:var(--rad);aspect-ratio:16/9;object-fit:cover}
 .boutique-figure figcaption{font:italic 400 .82rem/1.5 var(--font-body);color:var(--ink-soft);margin-top:.55em}
 
 .abos{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1.2rem,3vw,2rem);margin-bottom:var(--space-md)}
@@ -499,7 +523,7 @@ strong{font-weight:500}
 .rituels-figure{
   max-width:640px;
 }
-.rituels-figure img{border:1px solid var(--ink-25);border-radius:var(--rad)}
+.rituels-figure img{border:1px solid var(--ink-25);border-radius:var(--rad);aspect-ratio:16/9;object-fit:cover}
 .rituels-figure figcaption{font:italic 400 .82rem/1.5 var(--font-body);color:var(--ink-soft);margin-top:.55em}
 
 @media(max-width:680px){.rituels-grid{grid-template-columns:1fr}}
