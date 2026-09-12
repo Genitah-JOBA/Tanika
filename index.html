@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tanika — Atelier de céramique, Antananarivo</title>
+  <meta name="description" content="Atelier de céramique contemporaine à Antananarivo : pièces uniques tournées à la main avec l'argile des Hautes Terres, ateliers d'initiation au tour et à la main, art de la table et décoration.">
+  <meta name="author" content="Tanika">
+  <meta name="theme-color" content="#22150E">
+  <link rel="canonical" href="https://www.tanika.mg/">
+  <link rel="icon" href="assets/img/seal.png" type="image/png">
+
+  <!-- Typographies -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@400;500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@400;500&display=swap">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tanika">
+  <meta property="og:locale" content="fr_MG">
+  <meta property="og:title" content="Tanika — Atelier de céramique, Antananarivo">
+  <meta property="og:description" content="Pièces uniques tournées à la main avec l'argile des Hautes Terres, ateliers d'initiation au tour et à la main. Rue du Rova, Faravohitra, Antananarivo.">
+  <meta property="og:url" content="https://www.tanika.mg/">
+  <meta property="og:image" content="https://www.tanika.mg/assets/img/hero.jpg">
+  <meta property="og:image:width" content="960">
+  <meta property="og:image:height" content="540">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tanika — Atelier de céramique, Antananarivo">
+  <meta name="twitter:description" content="Céramique contemporaine tournée à la main, ateliers d'initiation et art de la table. Rue du Rova, Faravohitra, Antananarivo 101.">
+  <meta name="twitter:image" content="https://www.tanika.mg/assets/img/hero.jpg">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Atelier (de type Store / LocalBusiness) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "@id": "https://www.tanika.mg/#atelier",
+    "name": "Tanika",
+    "slogan": "La terre, guidée par la main.",
+    "description": "Atelier de céramique contemporaine fondé en 2018 à Antananarivo. Pièces uniques tournées à la main avec l'argile des Hautes Terres, boutique, ateliers d'initiation au tour et à la main, art de la table et décoration.",
+    "url": "https://www.tanika.mg/",
+    "telephone": "+261342999001",
+    "email": "bonjour@tanika.mg",
+    "priceRange": "Ar Ar",
+    "foundingDate": "2018",
+    "founder": { "@type": "Person", "name": "Mialy Raharijaona" },
+    "image": "https://www.tanika.mg/assets/img/hero.jpg",
+    "logo": "https://www.tanika.mg/assets/img/seal.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Lot II B 52 Bis, rue du Rova",
+      "addressLocality": "Antananarivo",
+      "postalCode": "101",
+      "addressCountry": "MG"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": -18.9146, "longitude": 47.5257 },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday"],
+        "opens": "10:00",
+        "closes": "15:00"
+      }
+    ],
+    "sameAs": []
+  }
+  </script>
+
+  <!-- FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Pourquoi les pièces sont-elles toutes différentes ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Chaque pièce est tournée à la main, sans moule. Les glaçures sont mélangées en petite quantité et les cuissons varient d'un four à l'autre : la main et le feu ne se ressemblent jamais deux fois."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "D'où vient l'argile utilisée par l'atelier ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "De quatre terres des Hautes Terres achetées en direct aux potiers de Behenjy, d'Ambatomainty, d'Androvakely et des rives du lac Itasy, au prix juste."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Proposez-vous des ateliers d'initiation ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Le samedi matin, une initiation au tour de 9h30 à 12h ; le mercredi après-midi, un atelier de modelage pour les enfants et leurs parents ; l'atelier se privatise aussi pour les groupes de huit à seize personnes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Faut-il réserver longtemps à l'avance ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les ateliers sont limités à six places. Une réservation de trois jours est conseillée ; la privatisation se fixe de deux à trois semaines à l'avance."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Livrez-vous hors d'Antananarivo ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nous livrons à Antananarivo sous 48 heures et expédions vers toutes les régions de Madagascar ainsi qu'à l'étranger, dans un emballage pensé pour le voyage."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Product : Vase Andry -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Vase Andry",
+    "description": "Vase contemporain tourné à la main, argile blanche de Behenjy, glaçure mate. Pièce unique, chaque exemplaire est signé au fond.",
+    "brand": { "@type": "Brand", "name": "Tanika" },
+    "image": "https://www.tanika.mg/assets/img/prod-vase.jpg",
+    "category": "Vases",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.tanika.mg/#boutique",
+      "priceCurrency": "MGA",
+      "price": "185000",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  }
+  </script>
+
+  <!-- Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://www.tanika.mg/#org",
+    "name": "Tanika",
+    "url": "https://www.tanika.mg/",
+    "logo": "https://www.tanika.mg/assets/img/seal.png",
+    "foundingDate": "2018",
+    "founder": { "@type": "Person", "name": "Mialy Raharijaona" },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Lot II B 52 Bis, rue du Rova",
+      "addressLocality": "Antananarivo",
+      "postalCode": "101",
+      "addressCountry": "MG"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+261342999001",
+      "contactType": "customer service",
+      "availableLanguage": ["French", "Malagasy"]
+    },
+    "sameAs": []
+  }
+  </script>
+
+  <!-- BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.tanika.mg/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Tanika — Atelier de céramique, Antananarivo",
+        "item": "https://www.tanika.mg/#atelier"
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">Aller au contenu principal</a>
+
+  <!-- Symboles réutilisables (sceau, filet ornemental) -->
+  <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="wax" cx="42%" cy="38%" r="75%">
+        <stop offset="0%" stop-color="#8C3B2E"/>
+        <stop offset="55%" stop-color="#6E2A26"/>
+        <stop offset="100%" stop-color="#4C1D1B"/>
+      </radialGradient>
+      <linearGradient id="wax-rim" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#C0A25F"/>
+        <stop offset="100%" stop-color="#8A5528"/>
+      </linearGradient>
+    </defs>
+
+    <symbol id="seal" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="46" fill="url(#wax)"/>
+      <circle cx="50" cy="50" r="45.5" fill="none" stroke="#D2A86B" stroke-width="1.6" stroke-dasharray="1 3.3" stroke-linecap="round"/>
+      <circle cx="50" cy="50" r="39" fill="none" stroke="url(#wax-rim)" stroke-width="2.2"/>
+      <circle cx="50" cy="50" r="33.5" fill="none" stroke="#D2A86B" stroke-width="0.9" opacity="0.7"/>
+      <circle cx="26" cy="26" r="1.4" fill="#C0A25F"/>
+      <circle cx="74" cy="74" r="1.4" fill="#C0A25F"/>
+      <text x="50" y="60" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="46" font-weight="600" fill="#F2E9D9">T</text>
+    </symbol>
+
+    <symbol id="divider" viewBox="0 0 360 22">
+      <g fill="none" stroke="currentColor" stroke-width="1">
+        <path d="M8 11 H118" opacity="0.45"/>
+        <path d="M242 11 H352" opacity="0.45"/>
+        <path d="M128 11 q7 -13 22 0 M128 11 q7 13 22 0" opacity="0.7"/>
+        <path d="M210 11 q-7 -13 -22 0 M210 11 q-7 13 -22 0" opacity="0.7"/>
+        <circle cx="150" cy="11" r="1.7" fill="currentColor" stroke="none"/>
+        <circle cx="210" cy="11" r="1.7" fill="currentColor" stroke="none"/>
+      </g>
+      <path d="M180 4.5 l3.2 6.5 -3.2 6.5 -3.2 -6.5 z" fill="currentColor" stroke="none"/>
+    </symbol>
+  </svg>
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-home" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9v12h14V9"/><path d="M10 21v-6h4v6"/></g></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.5C10 4.5 7 4.5 4 5.5V19c3-1 6-1 8 1 2-2 5-2 8-1V5.5c-3-1-6-1-8 1Z"/><path d="M12 6.5V20"/></g></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l1 13H5Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></g></symbol>
+    <symbol id="i-wheel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="2.2"/><path d="M12 3.5v3M3.5 12h3M20.5 12h-3M12 20.5v-3"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></g></symbol>
+    <symbol id="i-hand" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 13V6.5a1.7 1.7 0 0 1 3.4 0V12"/><path d="M11.4 10V5.5a1.7 1.7 0 0 1 3.4 0V11"/><path d="M14.8 12V7a1.7 1.7 0 0 1 3.4 0v7a6.2 6.2 0 0 1-12.4 0v-3"/></g></symbol>
+    <symbol id="i-hourglass" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h10M7 21h10"/><path d="M7.5 3c0 4.5 2.3 6.6 4.5 8 2.2-1.4 4.5-3.5 4.5-8M7.5 21c0-4.5 2.3-6.6 4.5-8 2.2 1.4 4.5 3.5 4.5 8"/></g></symbol>
+    <symbol id="i-message" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5h16A1.5 1.5 0 0 1 21.5 7v9a1.5 1.5 0 0 1-1.5 1.5H9l-4.5 4v-4H4A1.5 1.5 0 0 1 2.5 16V7A1.5 1.5 0 0 1 4 5.5Z"/></g></symbol>
+    <symbol id="i-ground" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 15a7 7 0 0 1 14 0"/><path d="M4 15h16v2.5a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5Z"/></g></symbol>
+    <symbol id="i-drop" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5c3.2 4.6 5.5 7.3 5.5 10a5.5 5.5 0 0 1-11 0c0-2.7 2.3-5.4 5.5-10Z"/><path d="M9.8 14.5a2.5 2.5 0 0 0 2.2 2.2"/></g></symbol>
+    <symbol id="i-fire" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c1.6 2.4 2.5 4 2.5 6a2.5 2.5 0 0 1-5 0c0-1 .3-1.7.7-2.7C7.5 7.3 6 10.4 6 13a6 6 0 0 0 12 0c0-3.5-2.5-8-6-10Z"/><path d="M12 19.5a2 2 0 0 1-2-2"/></g></symbol>
+    <symbol id="i-model" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="14.5" r="4.2"/><ellipse cx="17.5" cy="13.5" rx="2.4" ry="3.2"/></g></symbol>
+    <symbol id="i-team" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8.5" r="3.2"/><path d="M3.5 19c0-3.1 2.4-5 5.5-5s5.5 1.9 5.5 5"/><circle cx="16.5" cy="9.5" r="2.6"/><path d="M16.5 14.3c2.4-.6 4.1 1.7 4.1 4.7"/></g></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5.5" width="16" height="14.5" rx="2"/><path d="M8 3.5v4M16 3.5v4M4 10h16"/></g></symbol>
+    <symbol id="i-arrow-r" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></g></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></g></symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19l.8-3.5L16.6 4.6a2 2 0 0 1 2.9 2.9L8.5 17.8 5 19Z"/><path d="M14.5 7.5 16.5 9.5"/></g></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7.5 8 6 8-6"/></g></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h3.2l1.7 4.6-2 1.4a11.5 11.5 0 0 0 6.6 6.6l1.4-2L20 16v3.2a1.8 1.8 0 0 1-1.8 1.8A15.4 15.4 0 0 1 3.2 6 1.8 1.8 0 0 1 5 4Z"/></g></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></g></symbol>
+    <symbol id="i-bus" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="4" width="15" height="12.5" rx="2"/><path d="M9 3.5V6M15 3.5V6M4.5 10h15"/><circle cx="8" cy="14.5" r="1"/><circle cx="16" cy="14.5" r="1"/></g></symbol>
+  </svg>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#hero">
+        <svg class="brand-seal" aria-hidden="true" width="40" height="40" viewBox="-8 -8 116 116"><use href="#seal"/></svg>
+        <span class="brand-text">
+          <span class="brand-name">Tanika</span>
+          <span class="brand-baseline">Atelier céramique</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" id="siteNav" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="#maison"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#i-home"/></svg>La Maison</a></li>
+          <li><a href="#savoir"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#i-book"/></svg>Le Savoir</a></li>
+          <li><a href="#boutique"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#i-bag"/></svg>La Boutique</a></li>
+          <li><a href="#ateliers"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#i-wheel"/></svg>Les Ateliers</a></li>
+          <li><a href="#venir"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#i-pin"/></svg>Venir</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--header" href="#contact"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#i-calendar"/></svg>Réserver un atelier</a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Ouvrir le menu">
+        <span class="nav-toggle-lines" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- 1 · HERO -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <img src="assets/img/hero.jpg" alt="Mains d'artisan façonnant une pièce sur un tour de potier, dans la lumière chaude de l'atelier." width="960" height="540" fetchpriority="high" class="hero-img">
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <p class="hero-kicker">Atelier céramique — Antananarivo, rue du Rova</p>
+        <h1 class="hero-title" id="hero-title">La terre,<br><em>guidée par la main.</em></h1>
+        <p class="hero-intro">Depuis 2018, l'atelier Tanika tourne, façonne et cuit des céramiques contemporaines avec l'argile des Hautes Terres. Rue du Rova, rien ne se presse : de la boule de terre au four, chaque pièce garde le geste qui l'a faite.</p>
+        <div class="hero-cta">
+          <a class="btn btn--primary" href="#contact"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#i-calendar"/></svg>Réserver un atelier</a>
+          <a class="btn btn--ghost" href="#maison"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#i-arrow-r"/></svg>Découvrir l'atelier</a>
+        </div>
+      </div>
+
+      <svg class="hero-seal" aria-hidden="true" viewBox="-10 -10 120 120"><use href="#seal"/></svg>
+
+      <a class="scroll-cue" href="#chiffres">
+        <span class="scroll-cue-line" aria-hidden="true"></span>
+        <span class="scroll-cue-text">Laisser faire le temps</span>
+      </a>
+    </section>
+
+    <!-- 2 · BANDEAU CHIFFRES -->
+    <section class="chiffres" id="chiffres" aria-label="L'atelier en chiffres">
+      <div class="container chiffres-inner">
+        <div class="stat">
+          <span class="stat-num count" data-count="2018">2018</span>
+          <span class="stat-label">Fondation, rue du Rova</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num count" data-count="years">8</span>
+          <span class="stat-label">Années de patience</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num count" data-count="4">4</span>
+          <span class="stat-label">Argiles des Hautes Terres</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num count" data-count="1250">1250</span>
+          <span class="stat-label">Degrés de la cuisson</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 · LA MAISON -->
+    <section class="section maison" id="maison" aria-labelledby="maison-title">
+      <div class="container">
+        <p class="kicker reveal">La maison</p>
+        <h2 class="section-title reveal" id="maison-title">Huit ans de terre,<br>une même patte</h2>
+
+        <div class="maison-grid">
+          <div class="maison-text">
+            <p class="reveal">En 2018, Mialy Raharijaona rentre à Antananarivo après sept ans à <strong>Limoges</strong>, où elle a appris le tour, la glaçure et la discipline du feu. Au lieu d'ouvrir un atelier dans la ville où elle a étudié, elle choisit la rue du Rova, à Faravohitra, et pose une règle que l'atelier n'a jamais quittée : <strong>acheter l'argile aux potiers des Hautes Terres, tourner chaque pièce à la main, la laisser sécher lentement, la cuire deux fois.</strong></p>
+            <p class="reveal">Huit ans plus tard, la règle est intacte. Les pièces de Tanika posent leurs côtes rondes sur les tables, les étagères et les terrasses de la capitale — jamais deux identiques, toujours le même soin. L'atelier n'a pas vieilli. Il patine.</p>
+            <div class="divider" role="presentation" aria-hidden="true"><svg class="divider-svg" preserveAspectRatio="none"><use href="#divider"/></svg></div>
+            <p class="maison-axiom reveal">« La terre ne ment pas. »</p>
+          </div>
+
+          <figure class="maison-figure reveal">
+            <img src="assets/img/atelier.jpg" alt="Étagères de bois pleines de tasses et de bols en céramique faits main, dans un atelier de poterie." width="500" height="300" loading="lazy">
+            <figcaption>L'atelier de la rue du Rova — argile, tours et étagères pleines.</figcaption>
+          </figure>
+        </div>
+
+        <div class="values-grid">
+          <article class="value reveal">
+            <span class="value-num" aria-hidden="true">I</span>
+            <h3>Le Geste</h3>
+            <p>Centrer la boule, monter la paroi, rentrer la pièce. Chaque objet répète un geste hérité, sans en oublier un trait — la main garde la mémoire.</p>
+          </article>
+          <article class="value reveal">
+            <span class="value-num" aria-hidden="true">II</span>
+            <h3>La Patience</h3>
+            <p>L'argile se repose trois jours, sèche une semaine, cuit deux fois. Nous ne raccourcissons aucune de ces étapes : le feu ne se rattrape pas.</p>
+          </article>
+          <article class="value reveal">
+            <span class="value-num" aria-hidden="true">III</span>
+            <h3>La Parole</h3>
+            <p>Nous connaissons nos potiers par leur nom. Entre la carrière et l'atelier, la chaîne reste courte, et la marchandise se transmet de parole en parole.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · LE SAVOIR -->
+    <section class="section section--dark torrefaction" id="savoir" aria-labelledby="savoir-title">
+      <div class="container">
+        <p class="kicker kicker--light reveal">Le savoir</p>
+        <h2 class="section-title section-title--light reveal" id="savoir-title">Le tour ne se commande pas,<br>il s'écoute.</h2>
+
+        <div class="torre-intro">
+          <div class="torre-text">
+            <p class="reveal">Chaque matin, l'argile arrive des Hautes Terres déjà assouplie par un repos de trois jours. La main la centra sur le tour, monte la paroi, la finit à la dernière eau — puis la pièce sèche en silence, attend le four, et reçoit deux cuissons.</p>
+            <p class="reveal">De la carrière à la pièce finie, le parcours de l'argile tient en quatre étapes, et chacune a son heure.</p>
+          </div>
+          <figure class="torre-figure reveal">
+            <img src="assets/img/geste.jpg" alt="Gros plan sur deux mains qui façonnent de l'argile sur un tour de potier." width="800" height="534" loading="lazy">
+            <figcaption>Les mains d'atelier — glisser, laisser la terre monter.</figcaption>
+          </figure>
+        </div>
+
+        <ol class="steps-grid">
+          <li class="step reveal">
+            <span class="step-num" aria-hidden="true">01</span>
+            <h3>La terre</h3>
+            <p>Argiles tracées achetées en direct aux potiers des Hautes Terres. Repos trois jours, malaxage, assouplissement : la terre doit vouloir se prêter.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num" aria-hidden="true">02</span>
+            <h3>Le tour &amp; la main</h3>
+            <p>Centrage, montée, colombin pour les grandes pièces. Sans moule, sans standard : chaque pièce suit l'argile qui croît sous les doigts.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num" aria-hidden="true">03</span>
+            <h3>Le repos &amp; le séchage</h3>
+            <p>La pièce respire sur l'étagère, séchant lentement, à l'abri du courant. Nul ne la touche avant qu'elle ne soit devenue du son.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num" aria-hidden="true">04</span>
+            <h3>La double cuisson</h3>
+            <p>Biscuit puis glaçure, jusqu'à 1&nbsp;250&nbsp;°C. Entre les deux feux, la pièce apprend ce qu'elle sera — et le four garde le dernier mot.</p>
+          </li>
+        </ol>
+
+        <figure class="roast-panel reveal" aria-labelledby="roast-title">
+          <figcaption class="roast-label" id="roast-title">La courbe de cuisson — deux feux, une seule patience</figcaption>
+          <div class="roast-plot">
+            <svg class="roast-svg" viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden="true">
+              <g class="roast-grid">
+                <line x1="0" y1="30" x2="100" y2="30"/>
+                <line x1="0" y1="18" x2="100" y2="18"/>
+                <line x1="0" y1="7" x2="100" y2="7"/>
+              </g>
+              <path class="roast-path" id="roastPath" d="M0 31 C 14 30, 16 22, 27 19 C 39 16, 44 12, 55 11 C 68 10, 74 8, 82 8 C 90 8, 96 7, 100 7" fill="none" pathLength="1"/>
+              <circle class="roast-dot" id="roastDot" cx="0" cy="31" r="1.4"/>
+              <g class="roast-marks">
+                <line x1="19" y1="4" x2="19" y2="14"/>
+                <line x1="55" y1="4" x2="55" y2="14"/>
+                <line x1="83" y1="4" x2="83" y2="14"/>
+              </g>
+            </svg>
+            <div class="roast-phases" aria-hidden="true">
+              <span>séchage</span>
+              <span>biscuit</span>
+              <span>glaçure</span>
+            </div>
+          </div>
+        </figure>
+
+        <aside class="engagement reveal">
+          <svg class="engagement-mark" aria-hidden="true" viewBox="-6 -6 112 112"><use href="#seal"/></svg>
+          <div class="engagement-text">
+            <h3>Le prix juste au potier</h3>
+            <p>Nous payons nos argiles au-dessus du cours, sans intermédiaire entre la carrière et le tour, et reversons 5&nbsp;% de chaque vente aux coopératives de Behenjy et d'Ambatomainty. La qualité n'est pas un luxe : c'est une dette honorée chaque saison.</p>
+          </div>
+        </aside>
+
+        <div class="origins">
+          <h3 class="origins-title reveal">Quatre argiles, une seule règle — traçable</h3>
+          <dl class="origins-grid">
+            <div class="origin-card reveal">
+              <dt>Behenjy — blanche</dt>
+              <dd class="origin-note">Fine, feldspathique, cuite en feu de bois. L'art de la table et les glaçures mates.</dd>
+            </div>
+            <div class="origin-card reveal">
+              <dt>Ambatomainty — rouge brique</dt>
+              <dd class="origin-note">Assouplie au sable, cuisson longue au feu de plein air. Pièces décoratives et jardin.</dd>
+            </div>
+            <div class="origin-card reveal">
+              <dt>Androvakely — grise</dt>
+              <dd class="origin-note">À fort retrait, idéale aux grandes pièces tournées et aux colombins d'exception.</dd>
+            </div>
+            <div class="origin-card reveal">
+              <dt>Lac Itasy — ocre jaune</dt>
+              <dd class="origin-note">Ocre chaude des rives volcaniques, pour les engobes et les émaux terreux.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · LA BOUTIQUE -->
+    <section class="section section--lait boutique" id="boutique" aria-labelledby="boutique-title">
+      <div class="container">
+        <p class="kicker reveal">La boutique</p>
+        <h2 class="section-title reveal" id="boutique-title">Des pièces, pas des objets</h2>
+
+        <div class="boutique-intro">
+          <div class="boutique-text">
+            <p class="reveal">Les pièces quittent l'atelier estampillées du sceau de Tanika, posées sur du papier de soie. On les trouve au comptoir de la rue du Rova, ou livrées dans la semaine, à votre porte, soigneusement emballées pour le voyage.</p>
+          </div>
+          <figure class="boutique-figure reveal">
+            <img src="assets/img/boutique.jpg" alt="Assiettes et bols en céramique faits main disposés sur une étagère en bois rustique." width="800" height="534" loading="lazy">
+            <figcaption>L'étagère de la boutique — le service, empilé comme au repos.</figcaption>
+          </figure>
+        </div>
+
+        <div class="shop-grid">
+          <article class="product-card reveal">
+            <div class="product-media">
+              <img src="assets/img/prod-vase.jpg" alt="Vase contemporain en céramique posé sur une étagère, glaçure mate." width="900" height="675" loading="lazy">
+            </div>
+            <div class="product-body">
+              <span class="product-tag">Pièce unique</span>
+              <h3 class="product-name">Vase Andry</h3>
+              <p class="product-desc">Tourné dans l'argile blanche de Behenjy, glaçure mate, pied nu. Hauteur 32&nbsp;cm, signé au fond.</p>
+              <div class="product-foot">
+                <a class="btn btn--line" href="#contact">Commander</a>
+                <span class="product-price">185&nbsp;000&nbsp;<small>Ar</small></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-media">
+              <img src="assets/img/prod-jumeaux.jpg" alt="Deux vases en céramique élégants posés sur un plateau en bois." width="900" height="675" loading="lazy">
+            </div>
+            <div class="product-body">
+              <span class="product-tag">La paire</span>
+              <h3 class="product-name">Vases jumeaux Folo</h3>
+              <p class="product-desc">Deux vases sortis de la même main, tournés au même souffle — jamais deux fois pareils. Hauteur 24&nbsp;cm chacun.</p>
+              <div class="product-foot">
+                <a class="btn btn--line" href="#contact">Commander</a>
+                <span class="product-price">95&nbsp;000&nbsp;<small>Ar</small></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-media">
+              <img src="assets/img/prod-service.jpg" alt="Service de table en céramique : tasses et pichers colorés vus du dessus." width="900" height="675" loading="lazy">
+            </div>
+            <div class="product-body">
+              <span class="product-tag">Art de la table</span>
+              <h3 class="product-name">Service Antsirabe</h3>
+              <p class="product-desc">Six bols, six tasses et un plat, émaux de terre assemblés sur le tour. Le service complet de l'atelier, pour six convives.</p>
+              <div class="product-foot">
+                <a class="btn btn--line" href="#contact">Commander</a>
+                <span class="product-price">420&nbsp;000&nbsp;<small>Ar</small></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-media">
+              <img src="assets/img/prod-bols.jpg" alt="Bols en céramique verts empilés sur une surface en pierre." width="900" height="675" loading="lazy">
+            </div>
+            <div class="product-body">
+              <span class="product-tag">Le quotidien</span>
+              <h3 class="product-name">Bols Zava</h3>
+              <p class="product-desc">Bols empilables dans l'argile grise d'Androvakely, engobe vert de cendre. Pour le riz, les épices, les sauces du jour.</p>
+              <div class="product-foot">
+                <a class="btn btn--line" href="#contact">Commander</a>
+                <span class="product-price">6&nbsp;500&nbsp;<small>Ar</small></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-media">
+              <img src="assets/img/prod-tasses.jpg" alt="Tasses à thé rustiques et bols en céramique posés sur une table en bois." width="900" height="675" loading="lazy">
+            </div>
+            <div class="product-body">
+              <span class="product-tag">Cuisson au bois</span>
+              <h3 class="product-name">Tasses Sary</h3>
+              <p class="product-desc">Tasses à thé rustiques, glaçure cendrée, marques du feu de bois. Chaque tasse garde la couleur de sa cuisson.</p>
+              <div class="product-foot">
+                <a class="btn btn--line" href="#contact">Commander</a>
+                <span class="product-price">8&nbsp;000&nbsp;<small>Ar</small></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-media">
+              <img src="assets/img/prod-pots.jpg" alt="Pots de jardin en terre cuite exposés sur un fond de verdure." width="900" height="675" loading="lazy">
+            </div>
+            <div class="product-body">
+              <span class="product-tag">Jardin</span>
+              <h3 class="product-name">Pots Aina</h3>
+              <p class="product-desc">Pots de terrasse en terre cuite d'Ambatomainty, séchage lent, barbotine de finition. Pour les plantes et les patios.</p>
+              <div class="product-foot">
+                <a class="btn btn--line" href="#contact">Commander</a>
+                <span class="product-price">12&nbsp;000&nbsp;<small>Ar</small></span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="abos">
+          <article class="abo reveal">
+            <span class="abo-tag" aria-hidden="true">Pour commencer</span>
+            <h3>L'Essai</h3>
+            <p class="abo-price">150&nbsp;000&nbsp;<span class="abo-per">Ar</span></p>
+            <p class="abo-desc">Un vase de 25&nbsp;cm et un bol, au choix. La porte d'entrée de l'atelier, sans engagement, emballés dans le papier de soie de la maison.</p>
+            <a class="btn btn--line" href="#contact">Commander</a>
+          </article>
+          <article class="abo abo--pick reveal">
+            <span class="abo-tag" aria-hidden="true">Le rythme de la maison</span>
+            <h3>La Maison</h3>
+            <p class="abo-price">420&nbsp;000&nbsp;<span class="abo-per">Ar</span></p>
+            <p class="abo-desc">Le service Antsirabe complet, six couverts, livré en priorité : la table de la maison, dressée une fois pour toutes.</p>
+            <a class="btn btn--primary" href="#contact">Commander</a>
+          </article>
+          <article class="abo reveal">
+            <span class="abo-tag" aria-hidden="true">Édition limitée</span>
+            <h3>Le Trésor</h3>
+            <p class="abo-price">780&nbsp;000&nbsp;<span class="abo-per">Ar</span></p>
+            <p class="abo-desc">Une pièce d'exception numérotée sur trente, signée au fond, souvent une terre rare ou une glaçure de saison.</p>
+            <a class="btn btn--line" href="#contact">Commander</a>
+          </article>
+        </div>
+
+        <p class="abo-footnote reveal">Cadeaux d'affaires, hôtels, événements : coffrets sur mesure · Livraison à Antananarivo sous 48&nbsp;h, expédition vers toutes les régions · Paiement à la commande, retrait possible à l'atelier.</p>
+      </div>
+    </section>
+
+    <!-- 6 · LES ATELIERS -->
+    <section class="section rituels" id="ateliers" aria-labelledby="ateliers-title">
+      <div class="container">
+        <p class="kicker reveal">Ateliers &amp; initiations</p>
+        <h2 class="section-title reveal" id="ateliers-title">Le geste s'apprend à l'atelier</h2>
+
+        <div class="rituels-intro">
+          <p class="reveal">L'atelier ouvre ses tours et sa table de travail : on y vient pour acheter, mais on y vient aussi pour sentir la terre monter entre ses mains. Trois rendez-vous, trois façons d'entrer dans le métier.</p>
+        </div>
+
+        <div class="rituels-grid">
+          <article class="rituel-card reveal">
+            <span class="rituel-kicker">Samedi matin · 9h30–12h</span>
+            <h3>Initiation au tour</h3>
+            <p>Centrer une boule, la creuser, la laisser monter. Deux heures et demie de tour, chacune guidée — la première pièce part avec vous. Six places seulement.</p>
+            <dl class="rituel-meta">
+              <div><dt>Durée</dt><dd>2h30</dd></div>
+              <div><dt>Prix</dt><dd>45 000 Ar</dd></div>
+            </dl>
+            <a class="btn btn--line" href="#contact">S'inscrire</a>
+          </article>
+          <article class="rituel-card reveal">
+            <span class="rituel-kicker">Mercredi · 14h–15h30</span>
+            <h3>Modelage enfants &amp; parents</h3>
+            <p>Le colombin, la plaque, les pouces : les enfants et leurs parents façonnent ensemble un bol ou une maisonnette. Une après-midi les mains dans la terre.</p>
+            <dl class="rituel-meta">
+              <div><dt>Durée</dt><dd>1h30</dd></div>
+              <div><dt>Prix</dt><dd>25 000 Ar le duo</dd></div>
+            </dl>
+            <a class="btn btn--line" href="#contact">S'inscrire</a>
+          </article>
+          <article class="rituel-card reveal">
+            <span class="rituel-kicker">Sur demande · 8 à 16 personnes</span>
+            <h3>Privatisation &amp; team building</h3>
+            <p>L'atelier se ferme pour votre groupe : initiation, concours de bols, cadeau commun. Anniversaires, sorties d'équipe, ateliers d'entreprise.</p>
+            <dl class="rituel-meta">
+              <div><dt>Durée</dt><dd>2h à la carte</dd></div>
+              <div><dt>Tarif</dt><dd>Sur devis</dd></div>
+            </dl>
+            <a class="btn btn--line" href="#contact">S'inscrire</a>
+          </article>
+        </div>
+
+        <figure class="rituels-figure reveal">
+          <img src="assets/img/ateliers.jpg" alt="Une mère et son enfant façonnent ensemble une pièce en argile dans un atelier de poterie." width="800" height="534" loading="lazy">
+          <figcaption>Un samedi à l'atelier — les premières pièces, sorties du tour.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 7 · FAQ -->
+    <section class="section section--lait faq" id="faq" aria-labelledby="faq-title">
+      <div class="container container--narrow">
+        <p class="kicker reveal">Questions de l'atelier</p>
+        <h2 class="section-title reveal" id="faq-title">Les questions qu'on nous pose<br>les mains encore dans l'argile</h2>
+
+        <div class="faq-list reveal">
+          <details class="faq-item">
+            <summary>Pourquoi les pièces sont-elles toutes différentes ?</summary>
+            <p>Chaque pièce est tournée à la main, sans moule. Les glaçures sont mélangées en petite quantité et les cuissons varient d'un four à l'autre : la main et le feu ne se ressemblent jamais deux fois. C'est la signature de l'atelier, non un défaut.</p>
+          </details>
+          <details class="faq-item">
+            <summary>D'où vient l'argile ?</summary>
+            <p>De quatre terres des Hautes Terres achetées en direct aux potiers de Behenjy, d'Ambatomainty, d'Androvakely et des rives du lac Itasy, au prix juste et sans intermédiaire.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Proposez-vous des ateliers ou des cours ?</summary>
+            <p>Le samedi matin, une initiation au tour de 9h30 à 12h ; le mercredi après-midi, un atelier de modelage pour les enfants et leurs parents ; l'atelier se privatise aussi pour les groupes de huit à seize personnes.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Faut-il réserver longtemps à l'avance ?</summary>
+            <p>Les ateliers sont limités à six places pour que chacun soit guidé. Comptez trois jours pour l'initiation, et deux à trois semaines pour une privatisation.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Livrez-vous hors d'Antananarivo ?</summary>
+            <p>Nous livrons à Antananarivo sous 48 heures et expédions vers toutes les régions de Madagascar ainsi qu'à l'étranger, dans un emballage pensé pour le voyage — papier de soie, carton et calage.</p>
+          </details>
+        </div>
+
+        <figure class="faq-figure reveal">
+          <img src="assets/img/faq.jpg" alt="Collection de pots en argile façonnés main, alignés dans un atelier traditionnel." width="800" height="534" loading="lazy">
+          <figcaption>L'argile telle qu'elle entre à l'atelier — brute, tracée, honnête.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 8 · VENIR & CONTACT -->
+    <section class="section section--dark venir" id="venir" aria-labelledby="venir-title">
+      <div class="container">
+        <p class="kicker kicker--light reveal">Venir &amp; nous écrire</p>
+        <h2 class="section-title section-title--light reveal" id="venir-title">Rue du Rova,<br>Faravohitra</h2>
+
+        <div class="venir-grid">
+          <div class="venir-info" id="contact">
+            <address class="adresse reveal">
+              <span class="adresse-name">Tanika — atelier &amp; boutique</span>
+              Lot II B 52 Bis, rue du Rova<br>
+              101 Faravohitra, Antananarivo
+            </address>
+
+            <dl class="horaires reveal">
+              <div><dt>Mardi — samedi</dt><dd>9h – 18h</dd></div>
+              <div><dt>Dimanche</dt><dd>10h – 15h</dd></div>
+              <div><dt>Lundi</dt><dd>Fermé</dd></div>
+            </dl>
+
+            <p class="acces reveal">
+              Taxi-be <strong>ligne 114</strong> · Analakely → Faravohitra, arrêt Rova<br>
+              Bus 30, 45 — à 10 min à pied du lac Anosy
+            </p>
+
+            <div class="contact-actions reveal">
+              <a class="btn btn--primary" href="mailto:bonjour@tanika.mg">bonjour@tanika.mg</a>
+              <a class="btn btn--ghost" href="tel:+261342999001">+261 34 29 990 01</a>
+            </div>
+            <p class="contact-note reveal">Réservations, coffrets, privatisation : écrivez ou appelez, réponse sous un jour ouvré.</p>
+          </div>
+
+          <div class="venue-block">
+            <figure class="map-card reveal" aria-labelledby="map-label">
+              <figcaption id="map-label"><span class="kicker kicker--map">Plan de quartier</span><span class="map-caption">Faravohitra — entre la rue du Rova, le lac Anosy et l'avenue de l'Indépendance.</span></figcaption>
+              <svg class="map-svg" viewBox="0 0 400 260" aria-hidden="true">
+                <g class="map-river">
+                  <path d="M300 40 C 330 36, 372 34, 400 36 C 400 84, 368 88, 342 88 C 322 88, 292 80, 292 62 Z" fill="#D9CFB8" stroke="#8A5528" stroke-opacity="0.4"/>
+                  <path d="M0 22 C 96 22, 176 26, 236 34 S 356 40, 400 40 C 400 60, 296 60, 236 60 S 96 46, 0 46 Z" fill="#D9CFB8" stroke="#8A5528" stroke-opacity="0.4"/>
+                </g>
+                <g class="map-streets" stroke="#6E5A3F" stroke-width="1.1" opacity="0.8">
+                  <path d="M6 128 H 394" />
+                  <path d="M6 178 H 394" />
+                  <path d="M0 224 H 400" />
+                  <path d="M60 40 V 240" />
+                  <path d="M152 34 V 240" />
+                  <path d="M268 34 V 240" />
+                  <path d="M352 36 V 240" />
+                </g>
+                <g class="map-labels" stroke="none" fill="#6E5A3F" font-family="Jost, sans-serif" font-size="8" letter-spacing="1.5">
+                  <text x="12" y="122">Rue du Rova</text>
+                  <text x="12" y="171">Avenue de l'Indépendance</text>
+                  <text x="12" y="238">Route d'Andravoahangy</text>
+                  <text x="284" y="70">Lac Anosy</text>
+                </g>
+                <g class="map-metro">
+                  <circle cx="330" cy="180" r="4.5" fill="#faf5e9" stroke="#6E2A26" stroke-width="1.6"/>
+                  <text x="330" y="192" text-anchor="middle" fill="#6E2A26" font-family="Jost,sans-serif" font-size="6.5" font-weight="500">T114</text>
+                  <text x="330" y="208" text-anchor="middle" class="map-metro-name">Analakely</text>
+                  <circle cx="200" cy="188" r="4.5" fill="#faf5e9" stroke="#37473A" stroke-width="1.6"/>
+                  <text x="200" y="200" text-anchor="middle" fill="#37473A" font-family="Jost,sans-serif" font-size="6.5" font-weight="500">Bus</text>
+                  <text x="200" y="216" text-anchor="middle" class="map-metro-name">Lac Anosy</text>
+                </g>
+                <g class="map-home">
+                  <circle cx="122" cy="140" r="8" fill="none" stroke="#B07A3E" stroke-width="1.4"/>
+                  <circle cx="122" cy="140" r="3.4" fill="#6E2A26"/>
+                  <text x="122" y="158" text-anchor="middle" fill="#B07A3E" font-weight="600" class="map-home-name">Tanika</text>
+                </g>
+              </svg>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#hero">
+          <svg class="brand-seal" aria-hidden="true" width="40" height="40" viewBox="-8 -8 116 116"><use href="#seal"/></svg>
+          <span class="brand-text">
+            <span class="brand-name">Tanika</span>
+            <span class="brand-baseline">Atelier céramique</span>
+          </span>
+        </a>
+        <p class="footer-tagline">« La terre, guidée par la main. »</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Navigation de pied de page">
+        <ul>
+          <li><a href="#maison"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#i-home"/></svg>La Maison</a></li>
+          <li><a href="#savoir"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#i-book"/></svg>Le Savoir</a></li>
+          <li><a href="#boutique"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#i-bag"/></svg>La Boutique</a></li>
+          <li><a href="#ateliers"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#i-wheel"/></svg>Les Ateliers</a></li>
+          <li><a href="#venir"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#i-pin"/></svg>Venir</a></li>
+        </ul>
+      </nav>
+
+      <address class="footer-coord">
+        Lot II B 52 Bis, rue du Rova<br>
+        101 Faravohitra, Antananarivo<br>
+        <a href="tel:+261342999001">+261 34 29 990 01</a><br>
+        <a href="mailto:bonjour@tanika.mg">bonjour@tanika.mg</a>
+      </address>
+    </div>
+
+    <div class="container footer-meta">
+      <p class="footer-legal">Établissement fictif et images libres — site de démonstration. Photos : Pexels. Types : Cormorant Garamond, EB Garamond, Jost (Google Fonts).</p>
+      <p class="footer-copy">© <span id="footerYear">2026</span> Tanika</p>
+   
